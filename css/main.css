@@ -1,0 +1,142 @@
+
+
+:root{
+    --blanco: #ffffff;
+    --firstGreen: #0C231E;
+    --secondGreen: #13322B;
+    --brown: #B38E5D;
+}
+
+/*header*/
+
+.fuenteEstilo{
+    font-family: "Montserrat", sans-serif;
+}
+
+.header-navigation{
+    background-color: #0C231E;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 22%;
+    padding-right: 22%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+
+
+
+.divTramitesGobiernoHeader{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+ 
+}
+
+
+.divTramitesGobiernoHeader a{
+
+    text-decoration: none;
+    color: #ffffff;
+    font-size: larger;
+ 
+}
+
+/*icono de buscar (lupa)*/
+.searchSvgicon{
+    width: 16px;
+    height: 16px;
+}
+
+/*images and icons*/
+.imagenGobierno {
+    width: 128px;
+    height: 48px;
+}
+
+/*-----------------Segundo header--------------------------*/
+/*contenedor*/
+.contenedorHeader2{
+    background-color: #13322B;
+    display: flex;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+    padding-left: 22%;
+    padding-right: 22%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+}
+
+/*CNBBBJ*/
+.secondHeaderDiv1 a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*contenedor de los menus perfil, solicitud y seguimiento*/
+/*los coloca en horizontal*/
+.secondHeaderDiv2{
+    display: flex;
+}
+
+
+
+.secondHeaderDiv2 nav li a{
+    text-decoration: none; 
+    color: #ffffff;
+    background-color: #3d6b60;
+    display: grid;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+.secondHeaderDiv2 nav li a :hover{
+    
+    background-color: #434343;
+    
+}
+
+
+.secondHeaderDiv2 ul {
+   
+    padding: 0;
+    list-style: none;
+    color: #ffffff;
+}
+
+
+
+
+/*---------------body------------------*/
+
+.titulo{
+    padding-left: 22%;
+  
+  
+}
+
+.contenedorFormularioMain{
+    
+    padding-left: 22%;
+    padding-right: 22%;
+}
+
+/***/
+
+.contenedorPreguntasMain h5{
+    display: flex;
+    font-size: larger;
+    
+}
+
+
+.contenedorPreguntasMain{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
